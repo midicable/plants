@@ -1,0 +1,122 @@
+#about {
+  height:             666px;
+  padding:            93px 109px;
+  background-color: #FFFFFF;
+}
+
+#about-wrapper {
+  display:         flex;
+  justify-content: space-between;
+  align-items:     center;
+}
+
+#about-content-wrapper {
+  display:         flex;
+  flex-direction:  column;
+  justify-content: space-between;
+  align-content:   start;
+  width:           605px;
+  height:          350px;
+}
+
+#about-content-wrapper h2 {
+  font-family:   Inika;
+  font-size:     40px;
+  font-weight:   400;
+  color:       #499A18;
+  margin-bottom: 40px;
+}
+
+#about-content-wrapper p {
+  font-family: Inter;
+  font-size:   20px;
+  font-weight: 400;
+  line-height: 30px;
+  color:     #636060;
+} 
+
+
+@media screen and (min-width: 668px) and (max-width: 768px) {
+  #about {
+    height:             auto;
+    padding:            40px 50px 95px;
+  }
+
+  #about-wrapper {
+    display:         flex;
+    flex-direction:  column;
+    gap:             38px;
+    align-items:     center;
+    height:          auto;
+  }
+
+  #about-content-wrapper {
+    display:         flex;
+    flex-direction:  column;
+    gap:             40px;
+    align-items:     center;
+    width:           100%;
+    height:          auto;
+  }
+
+  #about-content-wrapper h2 {
+    font-family:   Inika;
+    font-size:     35px;
+    font-weight:   400;
+    line-height:   46px;
+    text-align:    center;
+    color:       #499A18;
+    margin-bottom: 0px;
+  }
+  
+  #about-content-wrapper p {
+    font-family:   Inter;
+    font-size:     20px;
+    font-weight:   400;
+    line-height:   30px;
+    color:       #636060;
+    margin-bottom: 30px;
+  } 
+}
+
+
+@media screen and (max-width: 668px) {
+  #about {
+    height:             auto;
+    padding:            30px 25px;
+  }
+
+  #about-wrapper {
+    display:         flex;
+    flex-direction:  column;
+    align-items:     center;
+    height:          auto;
+  }
+
+  #about-content-wrapper {
+    display:         flex;
+    flex-direction:  column;
+    gap:             22px;
+    align-items:     center;
+    width:           100%;
+    height:          auto;
+  }
+
+  #about-content-wrapper h2 {
+    font-family:   Inika;
+    font-size:     25px;
+    font-weight:   400;
+    line-height:   33px;
+    text-align:    center;
+    color:       #499A18;
+    margin-bottom: 0px;
+  }
+
+  #about-content-wrapper p {
+    font-family:   Inter;
+    font-size:     15px;
+    font-weight:   400;
+    line-height:   25px;
+    color:       #636060;
+  } 
+}

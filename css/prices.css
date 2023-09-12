@@ -1,0 +1,391 @@
+#prices {
+	height: 						auto;
+	padding: 						40px 109px 115px;
+	background-color: #FFFFFF;
+}
+
+#prices-wrapper {
+	display: 				 flex;
+	justify-content: space-between;
+	width: 	 				 100%;
+}
+
+#prices-box {
+	display: 				 flex;
+	flex-direction:  column;
+	gap:             60px;
+}
+
+#prices-box h2 {
+	font-family: Inter;
+	font-size: 	 40px;
+	line-height: 48px;
+	font-weight: 700;
+	color: 		 #000000;
+}
+
+#prices-btns-group {
+	display: 				 flex;
+	flex-direction:  column;
+	gap:             32px;
+	width: 					 332px;
+	padding: 				 34px 41px;
+	margin-bottom: 	 14px;
+	border-radius: 	 20px;
+	border: 				 1px solid #E3E1D5;
+}
+
+.prices-btn {
+	display:            block;
+	width: 					    250px;
+	border-radius:      20px;
+	background-color: #EDF2EC;
+	font-family:        Inter;
+	transition:         .3s linear;
+}
+
+.prices-btn-active {
+	background-color: #D6E7D2;
+}
+
+.prices-btn-header {
+	display:            flex;
+	justify-content:    space-between;
+	align-items:        center;
+	padding-top:        16px;
+	margin-right:       40px;
+	margin-left:        40px;
+	padding-bottom:     16px;
+	font-size:          20px;
+	font-weight:        700;
+	line-height:        20px;
+	color: 		        #000000;
+}
+
+.prices-btn-header:hover {
+	cursor: pointer;
+}
+
+.accordion-button {
+	transition: .3s linear;
+}
+
+.accordion-button-active {
+	transform: rotate(-180deg);
+}
+
+.accordion-circle {
+	fill:     #D9D9D9;
+	transition: .3s linear;
+}
+
+.accordion-circle-active {
+	fill: #AEA1A1;
+}
+
+.accordion-line {
+	stroke:   #717171;
+	transition: .3s linear;
+}
+
+.accordion-line-active {
+	stroke:   #FFFFFF;
+}
+
+.prices-btn-body {
+	display:            flex;
+	height:             108px;
+	flex-flow:          column nowrap;
+	gap:                6px;
+	margin-right:       40px;
+	margin-left:        40px;
+	transition:         all .3s ease;
+	overflow:           hidden;
+}
+
+.prices-btn-body-active {
+	padding-top:        6px;
+	padding-bottom:     12px;
+	border-top:         0.5px solid #AEA1A1;
+}
+
+.tariff-description {
+	text-align:      start;
+	font-size:       10px;
+	font-weight:     300;
+	line-height:     10px;
+	color: 		     #717171;
+}
+
+.tariff-price-number {
+	font-size:       16px;
+	font-weight:     700;
+	color: 		     #E06733;
+}
+
+.tariff-price-duration {
+	font-size:       12px;
+	font-weight:     400;
+	color: 		     #000000;
+}
+
+.order-btn {
+	width:              86px;
+	height:             25px;
+	border:             none;
+	border-radius:      10px;
+	background-color: #FFFFFF;
+	font-size:          14px;
+	font-weight:        700;
+	line-height:        20px;
+	color:            #717171;
+}
+
+.order-btn:hover {
+	cursor: pointer;
+}
+
+#contact-us-box {
+	display: 				 flex;
+	flex-direction:  column;
+	gap:             38px;
+	align-items: 		 flex-end;
+}
+
+#contact-us-box h2 {
+	text-align:  right;
+	font-family: Inter;
+	font-size:   40px;
+	line-height: 48px;
+	font-weight: 700;
+	color:     #000000;
+}
+
+.contact-us-btn {
+  width:              162px;
+  height:             50px;
+  border:             1px solid #E06733;
+  border-radius:      5px;
+  font-family:        Inika;
+  font-size:          20px;
+  font-weight:        700;
+  line-height:        26px;
+  color:            #E06733;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.contact-us-btn:hover {
+  cursor:             pointer;
+  background-color: #E06733 ;
+  color:            #FFFFFF;
+}
+
+#leafs-prices {
+	display: flex;
+}
+
+@media screen and (min-width: 668px) and (max-width: 768px) {
+	#prices {
+		height: 						auto;
+		padding: 						40px 50px 88px;
+	}
+	
+	#prices-wrapper {
+		display: 				 flex;
+		justify-content: space-between;
+		width: 	 				 100%;
+	}
+
+	#prices-box {
+		display: 				 flex;
+		flex-direction:  column;
+		gap:             50px;
+		height: 				 381px;
+	}
+
+	#prices-btns-group {
+		margin-bottom: 	 0px;
+	}
+
+	#prices-box h2 {
+		font-family: Inter;
+		font-size: 	 35px;
+		line-height: 42px;
+		font-weight: 700;
+		color: 		 #000000;
+	}
+
+	#contact-us-box {
+		display: 				 flex;
+		flex-direction:  column;
+		margin-top:      99px;
+		gap:             38px;
+		align-items: 		 flex-end;
+		align-self:  		 flex-end;
+	}
+	
+	#contact-us-box h2 {
+		text-align:  right;
+		font-family: Inter;
+		font-size:   25px;
+		line-height: 35px;
+		font-weight: 700;
+		color:     #000000;
+	}
+}
+
+@media screen and (max-width: 668px) {
+	#prices {
+		height: 		auto;
+		padding: 		25px 76px 40px;
+	}
+	
+	#prices-wrapper {
+		display: 				 flex;
+		flex-flow:       column nowrap;
+		gap:             14px;
+		width: 	 				 100%;
+	}
+
+	#prices-box {
+		display: 				 flex;
+		flex-direction:  column;
+		gap:             40px;
+		align-items:     center;
+		width:           100%;
+	}
+	
+	#prices-box h2 {
+		font-family: Inter;
+		font-size: 	 25px;
+		line-height: 30px;
+		font-weight: 700;
+		color: 		 #000000;
+	}
+	
+	#prices-btns-group {
+		display: 				 flex;
+		flex-direction:  column;
+		gap:             14px;
+		width: 					 224px;
+		height:          auto;
+		padding: 				 29px 22px;
+		margin-bottom: 	 0px;
+		border-radius: 	 20px;
+		border: 				 1px solid #E3E1D5;
+	}
+
+	.prices-btn {
+		display: 				    block;
+		width: 					    180px;
+		border-radius:      20px;
+		background-color: #EDF2EC;
+		font-family:        Inter;
+		transition:         .3s linear;
+	}
+
+	.prices-btn-active {
+		background-color: #D6E7D2;
+	}
+
+	.prices-btn-header {
+		display:            flex;
+		justify-content:    space-between;
+		align-items:        center;
+		padding-top:        16px;
+		margin-right:       40px;
+		margin-left:        30px;
+		padding-bottom:     16px;
+		font-size:          15px;
+		font-weight:        700;
+		line-height:        20px;
+		color: 		        #000000;
+	}
+
+	.prices-btn-body {
+		display:            flex;
+		height:             125px;
+		flex-flow:          column nowrap;
+		gap:                6px;
+		margin-right:       40px;
+		margin-left:        30px;
+		transition:         all .3s ease;
+		overflow:           hidden;
+	}
+	
+	.prices-btn-body-active {
+		padding-top:        6px;
+		padding-bottom:     12px;
+		border-top:         0.5px solid #AEA1A1;
+	}
+	
+	.tariff-description {
+		text-align:      start;
+		font-size:       10px;
+		font-weight:     300;
+		line-height:     10px;
+		color: 		     #717171;
+	}
+	
+	.tariff-price-number {
+		font-size:       16px;
+		font-weight:     700;
+		color: 		     #E06733;
+	}
+	
+	.tariff-price-duration {
+		font-size:       12px;
+		font-weight:     400;
+		color: 		     #000000;
+	}
+	
+	.order-btn {
+		width:              86px;
+		height:             25px;
+		border:             none;
+		border-radius:      10px;
+		background-color: #FFFFFF;
+		font-size:          14px;
+		font-weight:        700;
+		line-height:        20px;
+		color:            #717171;
+	}
+	
+	.prices-btn:hover {
+		cursor: pointer;
+	}
+
+	#contact-us-box {
+		display: 				 flex;
+		flex-flow:       column nowrap;
+		gap:             14px;
+		align-items: 		 center;
+		width:           100%;
+	}
+	
+	#contact-us-box h2 {
+		text-align:  center;
+		font-family: Inter;
+		font-size:   20px;
+		line-height: 35px;
+		font-weight: 700;
+		color:     #000000;
+	}
+	
+	.contact-us-btn {
+		width:              121px;
+		height:             35px;
+		border:             1px solid #E06733;
+		border-radius:      5px;
+		font-family:        Inika;
+		font-size:          15px;
+		font-weight:        700;
+		line-height:        20px;
+		color:            #E06733;
+		background-color: rgba(0, 0, 0, 0);
+	}
+
+	#leafs-prices {
+		display: none;
+	}
+}
